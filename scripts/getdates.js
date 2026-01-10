@@ -36,7 +36,7 @@ medium.innerHTML = `Medium: <span class="highlight">${new Intl.DateTimeFormat(
 	}
 ).format(today)}</span>`;
 
-year.innerHTML = `getFullYear(): <span class="highlight">${today.getFullYear()}</span>`;
+year.innerHTML = `<span class="highlight">${today.getFullYear()}</span>`;
 month.innerHTML = `getMonth(): <span class="highlight">${today.getMonth()}</span>`;
 day.innerHTML = `getDate(): <span class="highlight">${today.getDate()}</span>`;
 dayofweek.innerHTML = `getDay(): <span class="highlight">${today.getDay()}</span>`;
