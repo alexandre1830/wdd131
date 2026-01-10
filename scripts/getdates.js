@@ -11,7 +11,7 @@ const dayofweek = document.querySelector("#dayofweek");
 // use the date object
 const today = new Date();
 
-full.innerHTML = `Today is <span class="highlight">${new Intl.DateTimeFormat(
+full.innerHTML = ` <span class="highlight">${new Intl.DateTimeFormat(
 	"en-US",
 	{
 		dateStyle: "full"
