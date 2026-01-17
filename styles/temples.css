@@ -1,5 +1,5 @@
 *{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto", sans-serif;
     margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -8,7 +8,7 @@ header{
     background-color: lightskyblue;
     display:flex;
 }
-header h1{
+header p{
     font-size: 2rem;
     margin: 30px auto;
 }
@@ -23,13 +23,7 @@ ul{
 nav{
     max-width: 1200px;  
 }
-.navigation a{
-    display: block;
-    margin-right: auto;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-}
+
 .navigation a:hover{
     color: navy;
 }
@@ -40,8 +34,7 @@ main{
 footer{
     background-color: lightskyblue;
     text-align: center;
-    padding: 10px;
-    position: fixed;
+    padding: 20px;
     bottom: 0;
     width: 100%;
 }
@@ -87,8 +80,13 @@ figcaption{
     justify-content: space-evenly;
     list-style: none;
 }
-.navigation a {
-	display: none;
+.navigation a{
+    display: block;
+    margin-right: auto;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    display: none;
 	padding: 1rem;
 	text-align: center;
 	text-decoration: none;
