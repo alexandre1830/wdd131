@@ -21,6 +21,7 @@ ul{
     justify-content: flex-end;
 }
 nav{
+    display: flex;
     max-width: 1200px;  
 }
 
