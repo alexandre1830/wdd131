@@ -6,9 +6,6 @@ hamburgerButton.addEventListener('click', () => {
     hamburgerButton.classList.toggle('open');
 });
 
-
-
-
 const temples = [
   {
     templeName: "Aba Nigeria",
