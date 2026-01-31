@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 80%;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+img::after{
+    content: "Loading...";
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+}
