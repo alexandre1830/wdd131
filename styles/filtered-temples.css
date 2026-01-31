@@ -24,14 +24,6 @@ nav{
     display: flex;
     max-width: 1200px;  
 }
-.navigation a{
-    display: block;
-    margin-left: 20px;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    padding: 10px;
-}
 .navigation a:hover{
     color: navy;
 }
