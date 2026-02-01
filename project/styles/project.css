@@ -1,0 +1,67 @@
+/* General Styles */
+:root {
+    --blue: #032d6f;
+    --red: #a60404;
+    --lightblue:#8095b6;
+    --lightred: #d18180; 
+}
+*{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header and Footer Styles */
+header{
+    background-color: var(--blue);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+}
+footer{
+    background-color: var(--blue);
+    text-align: center;
+    padding-bottom: 10px;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer p{
+    padding: 10px 0;
+}
+
+/* Logo Styles */
+.logo{
+    height: 100px;
+    padding: 10px 0 0 10px;
+}
+.logo:hover{
+    transform: scale(1.2);
+    transition: transform 0.5s;
+}
+
+/* Navigation Styles */
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul{
+    display: flex;
+    gap: 50px;
+    padding-right: 50px;
+    list-style: none;
+}
+nav ul li a{
+    color: var(--lightblue);
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+a:hover{
+    color: white;
+    border-bottom: #a60404 2px solid;
+    padding-bottom: 5px;
+}
