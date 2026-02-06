@@ -91,3 +91,11 @@ figure{
     gap: 10px;
     padding: 20px 0 20px 0;
 }
+#wireframe-mobile{
+    width: 300px;
+    height: auto;
+}
+#wireframe-desktop{
+    width: 1200px;
+    height: auto;
+}
