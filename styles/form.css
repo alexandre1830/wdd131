@@ -115,3 +115,16 @@ button[type="submit"] {
     font-size: 1rem;
     border-radius: 4px;
 } 
+
+@media screen and (max-width: 600px) {
+    form {
+        padding: 20px;
+        margin: 10px;
+        max-width: 400px;
+    }
+
+    footer {
+        padding: 10px 0;
+    }
+    
+}
