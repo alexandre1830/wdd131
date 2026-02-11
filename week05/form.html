@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+    <meta name="author" content="Alexandre Oliveira">
+    <meta name="description" content="A simple HTML form example page for WDD 131 course.">
+
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/form.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Product Review Form</h1>
+    </header>
+    <main>
+        <form action="review.html" method="get">
+            <label for="productSelect">Choose a product</label>
+            <select id="productSelect" name="product" required>
+            <option value="" disabled selected>Select a Product ...</option>
+            </select>
+
+            <div class="rating">
+                <label><br>Rate the product</label>
+                <div class="stars">
+                    <input type="radio" id="fivestar" name="stars" value="5" required><label for="fivestar"></label>
+                    <input type="radio" id="fourstar" name="stars" value="4" required><label for="fourstar"></label>
+                    <input type="radio" id="threestar" name="stars" value="3" required><label for="threestar"></label>
+                    <input type="radio" id="twostar" name="stars" value="2" required><label for="twostar"></label>
+                    <input type="radio" id="onestar" name="stars" value="1" required><label for="onestar"></label>
+                </div>
+            </div>
+
+            <label for="date-of-installation"><br>Date of Installation:</label>
+            <input type="date" id="date-of-installation" name="date-of-installation" required>
+
+            <label for="useful-features"><br>Most Useful Features</label>
+
+            <div class="checkbox-group">
+                <label class="checkbox-inline"><input type="checkbox" id="feature1" name="features" value="Durability">Durability</label>
+                <label class="checkbox-inline"><input type="checkbox" id="feature2" name="features" value="Ease of use">Ease of use</label>
+                <label class="checkbox-inline"><input type="checkbox" id="feature3" name="features" value="Performance">Performance</label>
+                <label class="checkbox-inline"><input type="checkbox" id="feature4" name="features" value="Design">Design</label>
+            </div>
+
+            <label for="message"><br>Written review</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <label for="username"><br>Username</label>
+            <input type="text" id="username" name="username">
+
+            <button type="submit" value="Post review">Post Review</button>
+        </form>
+
+    </main>
+    <footer>
+        <p> &copy; <span id="current-year"></span> Alexandre Oliveira | Brazil 
+        <br>Última modificação: <span id="last-modified"></span>
+        </p>
+    </footer>
+    
+</body>
+</html>
