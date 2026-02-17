@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hey, Teacher!</title>
+    <meta name="description" content="A webpage about the project 'Hey, Teacher!' of private english classes">
+    <meta name="author" content="Alexandre Oliveira">
+  
+    <link rel="stylesheet" href="styles/project.css">
+    <script src="scripts/project.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <img src="images/logo1.png" alt="Hey, Teacher! Logo" class="logo" loading="lazy">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="plans.html">Plans</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <h2>Our Plans</h2>
+        <p>Choose the plan that best fits your needs and goals.
+            All plans include a personalized study planner, 100% of the materials, 
+            and unlimited mentorship.
+        </p>
+        <ul>
+            <li><strong>Basic Plan:</strong> Once a week - R$ 249,90</li>
+            <li><strong>Cost-Benefit Plan:</strong> Twice a week - R$ 399,90</li>
+            <li><strong>Intensive Plan:</strong> Three times a week - R$ 499,90</li>
+        </ul>
+        <div id="plan-recommender" style="border: 1px solid #ccc; padding: 20px; margin-top: 20px;">
+            <h3>Not sure which plan to choose?</h3>
+            <p>Select your main goal:</p>
+    
+            <select id="student-goal">
+                <option value="">-- Select an option --</option>
+                <option value="travel">International Travel (Short Term)</option>
+                <option value="business">Career / Business English</option>
+                <option value="hobby">Hobby / Culture</option>
+            </select>
+
+            <button id="recommend-btn">See Recommendation</button>
+
+            <div id="recommendation-result"></div>
+        </div>
+    </main>
+
+    <footer id="footer-plans">
+        <img src="images/logo1.png" alt="Hey, Teacher! Logo" class="logo" loading="lazy">
+        <p>&copy; 2026 Hey, Teacher! All rights reserved. | <a href="references.html"> References</a></p>
+    </footer>
+    
+</body>
+</html>
